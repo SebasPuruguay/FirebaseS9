@@ -3,4 +3,10 @@
     <string name="email">Ingrese Email</string>
     <string name="contra">Ingrese Contraseña</string>
     <string name="log">Log in</string>
+    <string name="btnre">REGISTER</string>
+    <string name="ptFullname">Full Name</string>
+    <string name="country">Country</string>
+    <string name="emailregister">Email</string>
+    <string name="passregister">Password</string>
+    <string name="guardarregs">Save</string>
 </resources>
