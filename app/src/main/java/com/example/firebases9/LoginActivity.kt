@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
                         Snackbar.make(findViewById(R.id.main),
                             "Login correcto",
                             Snackbar.LENGTH_SHORT).show()
-                        startActivity(Intent(this, MainActivity::class.java))
+                        startActivity(Intent(this, PrincipalActivity::class.java))
                     }else{
                         Snackbar.make(findViewById(R.id.main),
                             "Login incorrecto",
