@@ -24,7 +24,10 @@
     <string name="menu_product">Product</string>
     <string name="menu_register">Register</string>
     <string name="menu_animals">Animals</string>
+    <string name="menu_product_api">Product API</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valtitlesearchproducts">Buscar productos</string>
+    <string name="asd">Producto...</string>
 </resources>
