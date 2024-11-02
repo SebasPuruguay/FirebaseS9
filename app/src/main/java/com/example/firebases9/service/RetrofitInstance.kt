@@ -5,8 +5,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
-    private val TOKEN =  ""
-    private val BASE_URL = "https://fakestoreapi.com/";
+    private val TOKEN =  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTczMDU2NjU0NCwiZXhwIjoxNzMwNjUyOTQ0fQ.VZQb9T7ncqRqJIZC9AW9gwBtN3BSBd82qqMd4uCoU0g"
+    private val BASE_URL = "https://cf1d-38-253-147-39.ngrok-free.app/node-api/";
     private val cliente = OkHttpClient
         .Builder()
         .addInterceptor(AuthInterceptor(TOKEN))
