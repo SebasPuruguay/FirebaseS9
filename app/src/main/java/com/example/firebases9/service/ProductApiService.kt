@@ -19,7 +19,7 @@ interface ProductApiService {
 
     //Create POST product
     @POST("products")
-    fun createProduct(product: ProductApiModel): Call<ProductApiModel>
+    fun createProduct(@Body product: ProductApiModel): Call<ProductApiModel>
 
     //Create PUT product
     @PUT("products/{id}")

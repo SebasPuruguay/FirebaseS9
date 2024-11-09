@@ -30,4 +30,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="valtitlesearchproducts">Buscar productos</string>
     <string name="asd">Producto...</string>
+    <string name="rgtpro">REGISTRO DE PRODUCTO</string>
+    <string name="agregPrd">Agregar Producto</string>
 </resources>
